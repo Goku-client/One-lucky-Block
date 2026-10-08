@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "luckyone",
+  "version": "${version}",
+  "name": "Lucky One Block - Beat the Ender Dragon",
+  "description": "One Lucky Block floating in the void. Break it again and again, grow your island, and defeat the Ender Dragon to gain its powers.",
+  "authors": ["Goku"],
+  "license": "MIT",
+  "icon": "assets/luckyone/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.luckyone.LuckyOneMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
